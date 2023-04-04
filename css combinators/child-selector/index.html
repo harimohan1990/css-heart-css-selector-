@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Combinators 1.2 Child Selector </title>
+</head>
+<body>
+    <div id="child-selector">
+          <p>I am the first child paragraph.</p>
+          <p>I am the second child paragraph.</p>
+          <section>
+            <!-- not a child but Descendant -->
+            <p class="nonrel-para"><del>I am not the direct child of the division(div) which is having the id namely called <q>child-selector</q></del></p>
+          </section>
+          <p>I am the third child</p>
+    </div>
+    <p class="nonrel-para"><del>I am the outside  paragraph which will not comes under <sup>child-selector</sup></del> </p>
+</body>
+</html>

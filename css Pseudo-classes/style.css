@@ -1,0 +1,31 @@
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  .hover_pseucls p{
+    display: none;
+  background-color: yellow;
+  padding: 20px;
+  }
+
+  .hover_pseucls:hover p {
+    display: block;
+  }
+
+  

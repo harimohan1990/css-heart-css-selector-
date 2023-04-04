@@ -1,0 +1,8 @@
+#child-selector  > p{
+color: blue;
+}
+
+.nonrel-para{
+    color:red;
+    font-size:2rem;
+}
